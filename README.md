@@ -13,6 +13,7 @@ Added function to atomaticly free all the momory that the pointer points to with
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Process priority after xfork:
+
 Added function xforkSonFirst(), similar to xfork() function but in xforkSonFirst() the father process gives up the CPU time for the son process.
 
 Added function xwait() that waits to first son process to finish.
