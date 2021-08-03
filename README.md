@@ -2,6 +2,7 @@
 Changing memory management and son process priority after xfork. 
 
 Memory management changes:
+
 In XINU the original memory allocation function is getmem(int memory_in_bytes) that returns the pointer to the allocated memory if succeeded.
 Freeing memory function is freemem(cahr* pointer_to_memory, int size_of_memory_in_bytes).
 
